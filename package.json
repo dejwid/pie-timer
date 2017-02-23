@@ -4,8 +4,7 @@
   "description": "Pie timer",
   "main": "dist/pie-timer.js",
   "scripts": {
-    "build": "babel src --out-dir dist --presets=babel-preset-es2015",
-    "install": "babel src --out-dir dist --presets=babel-preset-es2015"
+    "build": "babel src --out-dir dist --presets=babel-preset-es2015"
   },
   "repository": {
     "type": "git",
