@@ -1,6 +1,6 @@
 {
   "name": "pie-timer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pie timer",
   "main": "dist/pie-timer.js",
   "scripts": {

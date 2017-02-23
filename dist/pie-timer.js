@@ -24,8 +24,8 @@ module.exports = function () {
       var y = Math.cos(r) * -125;
       var mid = this.alfa > 180 ? 1 : 0;
       var anim = 'M 0 0 v -125 A 125 125 1 ' + mid + ' 1 ' + x + ' ' + y + ' z';
-      this.loader.attr('d', anim);
-      this.border.attr('d', anim);
+      this.loader.setAttribute('d', anim);
+      this.border.setAttribute('d', anim);
     }
   }, {
     key: 'getAlafa',
